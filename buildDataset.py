@@ -25,8 +25,9 @@ def main():
 
     finalDataset = pd.DataFrame(entireDataset,columns=headers)
 
-
     print(finalDataset)
+
+    finalDataset.to_csv("dataset.csv")
 
 
 if __name__ == "__main__":
